@@ -3,8 +3,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url(/asset/starrrrrrrr1.jpg);
-    background-repeat: no-repeat;
+    background: url(./asset/bgd4.jpg);
+    background-size: cover;
 }
 
 .header_text {
@@ -13,11 +13,19 @@ body {
     font-weight: bold;
     color: white;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 0px;
+    margin: 30px;
+    padding-left: 10px;
 }
 
 .gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gif_container img {
+    width: 400px;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
